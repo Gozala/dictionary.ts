@@ -22,12 +22,12 @@ Library intentionally provides functional interface where it takes in
 dictionary & other params and returns a dictionary. But be aware that it
 actually mutates given dictionary in place and returns it back.
 
-Recomended use as can be seen in [documentation examples][docs url] is to always
+Recomended use as can be seen in [documentation examples][docs-url] is to always
 use returned dictionary as if it was different from passed in dictionary while
 at the same time avoid touching a passed dictionary ever again. That would
 allow you to switch between mutable & (upcoming) immutable version of this
 library without breaking your code. Maybe I just really wish typescript had a
-[owneship system][] :)
+[ownership system][] :)
 
 ## Install
 
